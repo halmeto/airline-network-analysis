@@ -5,7 +5,7 @@ from mpl_toolkits.basemap import Basemap
 
 def plot_map(data_file, color_mode='screen',
              out_filename='flights_map_mpl.png', absolute=False):
-    """Plots the given dataframes use matplotlib basemap and saves it to
+    """Plots the given dataframes using matplotlib basemap and saves it to
     a PNG file.
     Args:
         in_filename: Filename of the CSV containing the data points (routes).
